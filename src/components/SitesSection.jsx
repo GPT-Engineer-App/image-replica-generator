@@ -10,7 +10,7 @@ const SitesSection = () => {
       <VStack spacing={4}>
         <HStack justify="space-between" w="full">
           <HStack>
-            <Image boxSize="50px" src="https://bit.ly/broken-link" alt="Site" />
+            <Image boxSize="50px" src="https://app.netlify.com/sites/lovablelabs/" alt="Site" />
             <Text color="white">run.gptengineer.app</Text>
           </HStack>
           <Text color="white">Deploys from GitHub with Next.js</Text>
@@ -18,7 +18,7 @@ const SitesSection = () => {
         </HStack>
         <HStack justify="space-between" w="full">
           <HStack>
-            <Image boxSize="50px" src="https://bit.ly/broken-link" alt="Site" />
+            <Image boxSize="50px" src="https://app.netlify.com/sites/lovablelabs/" alt="Site" />
             <Text color="white">gptengineer.app</Text>
           </HStack>
           <Text color="white">Deploys from GitHub with Next.js</Text>
@@ -26,7 +26,7 @@ const SitesSection = () => {
         </HStack>
         <HStack justify="space-between" w="full">
           <HStack>
-            <Image boxSize="50px" src="https://bit.ly/broken-link" alt="Site" />
+            <Image boxSize="50px" src="https://app.netlify.com/sites/lovablelabs/" alt="Site" />
             <Text color="white">lovable.dev</Text>
           </HStack>
           <Text color="white">Deploys from GitHub with Astro</Text>
@@ -34,7 +34,7 @@ const SitesSection = () => {
         </HStack>
         <HStack justify="space-between" w="full">
           <HStack>
-            <Image boxSize="50px" src="https://bit.ly/broken-link" alt="Site" />
+            <Image boxSize="50px" src="https://app.netlify.com/sites/lovablelabs/" alt="Site" />
             <Text color="white">docs.gptengineer.app</Text>
           </HStack>
           <Text color="white">Builds are stopped</Text>
