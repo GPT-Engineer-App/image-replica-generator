@@ -13,7 +13,7 @@ const Sidebar = () => {
         <Button as={Link} to="/team-overview" leftIcon={<FaHome />} variant="ghost" justifyContent="start" w="full" color="white">Team Overview</Button>
         <Button as={Link} to="/sites" leftIcon={<FaServer />} variant="ghost" justifyContent="start" w="full" color="white">Sites</Button>
         <Button as={Link} to="/builds" leftIcon={<FaCogs />} variant="ghost" justifyContent="start" w="full" color="white">Builds</Button>
-        <Button as={Link} to="/integrations" leftIcon={<FaTools />} variant="ghost" justifyContent="start" w="full" color="white">Integrations</Button>
+        <Button as={Link} to="/integrations" leftIcon={<FaChartLine />} variant="ghost" justifyContent="start" w="full" color="white">Integrations</Button>
         <Button as={Link} to="/domains" leftIcon={<FaChartLine />} variant="ghost" justifyContent="start" w="full" color="white">Domains</Button>
         <Button as={Link} to="/members" leftIcon={<FaUserFriends />} variant="ghost" justifyContent="start" w="full" color="white">Members</Button>
         <Button as={Link} to="/audit-log" leftIcon={<FaClipboardList />} variant="ghost" justifyContent="start" w="full" color="white">Audit Log</Button>
