@@ -9,7 +9,7 @@ import Members from "./pages/Members.jsx";
 import AuditLog from "./pages/AuditLog.jsx";
 import SecurityScorecard from "./pages/SecurityScorecard.jsx";
 import Billing from "./pages/Billing.jsx";
-import TeamSettings from "./pages/TeamSettings.jsx";
+
 import VisualEditorDashboard from "./pages/VisualEditorDashboard.jsx";
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
         <Route path="/audit-log" element={<AuditLog />} />
         <Route path="/security-scorecard" element={<SecurityScorecard />} />
         <Route path="/billing" element={<Billing />} />
-        <Route path="/team-settings" element={<TeamSettings />} />
+        
         <Route path="/visual-editor-dashboard" element={<VisualEditorDashboard />} />
       </Routes>
     </Router>

@@ -1,6 +1,6 @@
 import { Box, VStack, Button, Text, IconButton } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-import { FaHeart, FaHome, FaServer, FaCogs, FaUserFriends, FaClipboardList, FaShieldAlt, FaCreditCard, FaTools, FaChartLine, FaArrowUp } from "react-icons/fa";
+import { FaHeart, FaHome, FaServer, FaCogs, FaUserFriends, FaClipboardList, FaShieldAlt, FaCreditCard, FaChartLine, FaArrowUp } from "react-icons/fa";
 
 const Sidebar = () => {
   return (
@@ -19,7 +19,7 @@ const Sidebar = () => {
         <Button as={Link} to="/audit-log" leftIcon={<FaClipboardList />} variant="ghost" justifyContent="start" w="full" color="white">Audit Log</Button>
         <Button as={Link} to="/security-scorecard" leftIcon={<FaShieldAlt />} variant="ghost" justifyContent="start" w="full" color="white">Security Scorecard</Button>
         <Button as={Link} to="/billing" leftIcon={<FaCreditCard />} variant="ghost" justifyContent="start" w="full" color="white">Billing</Button>
-        <Button as={Link} to="/team-settings" leftIcon={<FaTools />} variant="ghost" justifyContent="start" w="full" color="white">Team Settings</Button>
+        
         <Button as={Link} to="/visual-editor-dashboard" leftIcon={<FaChartLine />} variant="ghost" justifyContent="start" w="full" color="white">Visual Editor Dashboard</Button>
         <Button leftIcon={<FaArrowUp />} colorScheme="blue" w="full">Upgrade</Button>
       </VStack>
